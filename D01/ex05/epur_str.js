@@ -16,6 +16,8 @@ function epur_str(str) {
     console.log();
 }
 
+// alternatively, you could just add spaces to a result string before appending another word
+
 if (process.argv.length > 2) {
     epur_str(process.argv[2]);
 }
